@@ -1,0 +1,30 @@
+.header{
+    height: 50px;
+    background-color: #4e4e4e;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 20px 20px;
+
+
+}
+
+body{
+    margin:0 0;
+    padding: 0 0;
+}
+
+.footer{
+    height: 50px;
+    width: 80%;
+    background-color: grey;
+    text-align: center;
+    margin: 500px auto;
+    opacity: 0.5;
+    
+}
+
+h4{
+    opacity: 1.0;
+    color: white;
+}
