@@ -1,12 +1,34 @@
 .header{
-    height: 50px;
+    height: 100px;
     background-color: #4e4e4e;
+    margin: 0 0;
+    padding: 0 0;
+    display: block;
+
+}
+h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size: 50px;
-    padding: 20px 20px;
-
-
+   margin: 0 0;
+   padding: 0 0;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+   margin: 0 0;
+   padding: 0 0;
+   float: right;
+   position: absolute;
+   right: 100px;
+   top:10px;
+}
+.greenbutton{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
 }
 
 body{
@@ -27,4 +49,6 @@ body{
 h4{
     opacity: 1.0;
     color: white;
+    font-size: 40px;
+    text-align: right;
 }
