@@ -1,5 +1,12 @@
+html{
+    height: 100%;
+    margin: 0 0;
+}
+
+
 .header{
     height: 100px;
+    
     background-color: #202020;
     margin: 0 0;
     padding: 0 0;
@@ -49,6 +56,11 @@ h2{
 body{
     margin:0 0;
     padding: 0 0;
+    
+
+    height: 100%;
+    
+       
 }
 
 .footer{
@@ -59,7 +71,8 @@ body{
     margin: 0 auto;
     position: absolute;
     bottom:0;
-    opacity: 0.5;
+    left: 0;
+    opacity: 1;
     
 }
 
@@ -67,10 +80,37 @@ h4{
     opacity: 1.0;
     color: white;
     font-size: 40px;
-    text-align: center;
-
+    
+    margin: 0 0;
+    padding: 0 0;
+    
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    
 }
 
-.isLive{
-    /*display: none;
-*/}
+#isLive{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(Tuckercarlson.jpeg);
+    
+    background-color: #cccccc;
+    border-image-repeat: stretch;
+
+}
+#isNotLive{
+
+    width: 100%;
+    height: 100%;
+    display: none;
+
+    background-color: black;
+}
+h3{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+
+}
